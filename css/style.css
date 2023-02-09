@@ -4,3 +4,40 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/*SCHERMATA CON VH*/
+.schermata{
+    height: 100vh;
+    background-color:cyan;
+    position: relative;
+}
+/* COMMON */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* MAIN */
+
+/* Bottoni superiori */
+.sezione-bottoni-visuale{
+    position:absolute;
+    top: 0;
+    right: 0;
+    margin: 5px 3px;
+}
+.bottone{
+    color: white;
+    background-color: gray;
+    border-radius: 6px;
+    padding: 0.1em;
+}
+.contenitore{
+    width: 90%;
+    margin: 0 auto;
+    position:relative;
+    top: 30px;
+}
+/* Carta */
+.carta{
+    
+}
