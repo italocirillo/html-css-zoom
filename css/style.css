@@ -51,11 +51,25 @@ main{
 /* Carta */
 .carta{
     width: calc(100% / 7 - (70px / 7));
-    height: calc(100%/5);
+    height: calc(100%/5 - (50px / 5));
 
     background-image: url(https://picsum.photos/246/146);
     background-size: cover;
     background-position: center;
     margin-right: 5px;
     margin-left: 5px;
+    margin-top: 10px;
+
+    position: relative;
+    
+}
+
+/* Nome */
+.nome{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 0.5em;
+    position:absolute;
+    bottom: 0;
+    left:0;
 }
