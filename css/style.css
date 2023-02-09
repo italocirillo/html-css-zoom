@@ -17,6 +17,9 @@ body{
 }
 
 /* MAIN */
+main{
+    height: 100%;
+}
 
 /* Bottoni superiori */
 .sezione-bottoni-visuale{
@@ -33,11 +36,26 @@ body{
 }
 .contenitore{
     width: 90%;
+    height: 80%;
+    
     margin: 0 auto;
     position:relative;
     top: 30px;
 }
+/*Colonna*/
+.colonna{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
 /* Carta */
 .carta{
-    
+    width: calc(100% / 7 - (70px / 7));
+    height: calc(100%/5);
+
+    background-image: url(https://picsum.photos/246/146);
+    background-size: cover;
+    background-position: center;
+    margin-right: 5px;
+    margin-left: 5px;
 }
