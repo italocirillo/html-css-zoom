@@ -8,7 +8,7 @@
 /*SCHERMATA CON VH*/
 .schermata{
     height: 100vh;
-    background-color:cyan;
+    background-color: black;
     position: relative;
 }
 /* COMMON */
@@ -72,4 +72,62 @@ main{
     position:absolute;
     bottom: 0;
     left:0;
+}
+
+/* NAV */
+nav{
+    height: 10%;
+    width: 100%;
+    background-color: #222222; 
+    color: white;
+    position: absolute;
+    bottom: 0;
+
+    display: flex;
+}
+/* Sezioni bottoni nav*/
+.sezione-bottoni-nav{
+    height: 100%;
+    display:flex ;
+}
+.sezione-bottoni-laterale{
+    width: 30%;
+}
+.sezione-bottoni-centrale{
+    width: 40%;
+}
+.bottone-nav{
+    position: relative;
+    width: calc(100%/8);
+    color: white;
+    background-color: rgba(0, 0, 0,0);
+    border-style: none;
+}
+
+.icona-grande{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.freccia{
+    position: absolute;
+    right: 0;
+    top:40%;
+}
+.testo-bottone{
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 0;
+}
+.icona-verde{
+    color: green;
+}
+.bottone-chiusura{
+    width: 40%;
+    background-color: #4a4a4a;
+    color: red;
+    padding: 2em 1em;
+    border-style: none;
+}
+.spostato-destra{
+    justify-content: flex-end;
 }
